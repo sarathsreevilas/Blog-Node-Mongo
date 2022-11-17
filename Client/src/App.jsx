@@ -8,7 +8,7 @@ import Write from "./pages/write/Write";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
-  const currentUser = true;
+  const currentUser = false;
   return (
     <Router>
       <Topbar />
