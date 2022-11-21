@@ -1,6 +1,6 @@
 import "./write.css";
 import { useContext, useState } from "react";
-import axios from "axios";
+import axios from "../../axios";
 import { Context } from "../../context/Context";
 
 export default function Write() {
